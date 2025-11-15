@@ -128,6 +128,9 @@ importers:
       openai:
         specifier: ^6.8.1
         version: 6.8.1(zod@3.25.76)
+      papaparse:
+        specifier: ^5.5.3
+        version: 5.5.3
       react:
         specifier: 19.2.0
         version: 19.2.0
@@ -1790,6 +1793,9 @@ packages:
         optional: true
       zod:
         optional: true
+
+  papaparse@5.5.3:
+    resolution: {integrity: sha512-5QvjGxYVjxO59MGU2lHVYpRWBBtKHnlIAcSe1uNFCkkptUh63NFRj0FJQm7nR67puEruUci/ZkjmEFrjCAyP4A==}
 
   parse-entities@4.0.2:
     resolution: {integrity: sha512-GG2AQYWoLgL877gQIKeRPGO1xF9+eG1ujIb5soS5gPvLQ1y2o8FL90w2QWNdf9I361Mpp7726c+lj3U0qK1uGw==}
@@ -3756,6 +3762,8 @@ snapshots:
   openai@6.8.1(zod@3.25.76):
     optionalDependencies:
       zod: 3.25.76
+
+  papaparse@5.5.3: {}
 
   parse-entities@4.0.2:
     dependencies:
